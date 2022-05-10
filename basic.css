@@ -1,0 +1,122 @@
+/* Both Bibliography.html and index.html share the same CSS file, "basic.css." */
+
+body    {
+    background-color:Black;
+}
+
+h1  {
+    font-size:32pt;
+    font-family:arial,serif;
+    margin-left:20px;
+    text-align:center;
+    background-color:White;
+    width:900px;
+    border-style:solid;
+    color: gold;
+}
+
+h2  {
+    font-size:24pt;
+    font-family:"Times New Roman",arial,serif;
+    text-align: left;
+    margin-left:20px;
+    color: gold;
+}
+
+img {
+    width:600px;
+    height:400px;
+    margin-left:20px;
+    border-style:solid;
+    margin-bottom:15px;
+}
+
+p   {
+    font-size:18pt;
+    font-family:arial,serif;
+    text-align:left;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:50px;
+    color: gold;
+}
+
+ul  {
+    font-size:18pt;
+    font-family:arial,serif;
+    text-align:left;
+    margin-bottom:50px;
+    color: gold;
+}
+
+/* This class selector below makes sure that only the subheadings with the class "Bibliography-font-subheading" in the biblography web page are made a different colour and font. */
+
+.Bibliography-font-subheading {
+    font-family:Helvetica,arial,serif;
+    color:purple;
+}
+
+/* This class selector below makes sure that only the paragraphs with the class "Bibliography-paragraph-font" in the bibliography web page are made a different font and are given a bottom border which is solid. */
+
+.Bibliography-paragraph-font    {
+    font-family:"Times New Roman",arial,serif;
+    border-bottom-style:solid;
+}
+
+/* This class selector below makes sure the images with the validators class are made smaller because they are not the main images of the web page. The image with the validator class are also made to have a bottom margin of 0px. */
+
+.validators {
+    width:100px;
+    height:90px;
+    margin-bottom:0px;
+}
+
+/* This id selector below makes sure the image with the id "Different-image-dimensions" has a different width and height, a bottom margin of 0px, and that the image goes to the right side of the paragraph with the id "Different-paragraph-dimensions." */
+
+#Different-image-dimensions {
+    width:500px;
+    height:500px;
+    margin-left:800px;
+    margin-top:-450px;
+    margin-bottom:0px;
+}
+
+/* This id selector below makes sure the paragraph with the id "Different-paragraph-dimensions" is to the left side of the image with the id "Different-image-dimensions." */
+
+#Different-paragraph-dimensions {
+    margin-right:600px;
+}
+
+/* This id selector below makes sure the image with the id "Cover-page-image" has a bigger width and height because that image is supposed to be the cover picture. The id selector also makes sure the image with the id "Cover-page-image" has a bottom margin of 0px*/
+
+#Cover-page-image   {
+    width:900px;
+    height:600px;
+    margin-bottom:0px;
+}
+
+/* This id selector below makes sure the image with the id "WWF-image" is made taller so it looks more natural, and that the bottom margin 0px */
+
+#WWF-image  {
+    width:600px;
+    height:500px;
+    margin-bottom:0px;
+}
+
+/* This id selector below makes sure the link with the id "bibliography-link" is a smaller font because it's supposed to be an external link to the bibliography. I wanted the link to the bibliography to be smaller because it helps indicate the link is not "reading content" for the main web page. I also made the link bold and made the link have a border and background colour so it stands out. */
+
+#Bibliography-link   {
+    font-size:12pt;
+    font-weight:bold;
+    margin-left:92%;
+    background-color:White;
+    border-style:solid;
+}
+
+/* This id selector below makes sure the heading in the bibliography web page is a different font, has a bottom margin of 50px, and a bigger width. */
+
+#Bibliography-font-heading  {
+    font-family:Verdana,arial,serif;
+    margin-bottom:50px;
+    width:1300px;
+}
